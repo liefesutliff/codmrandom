@@ -1,0 +1,87 @@
+a {color: red;}         /* Unvisited link  */
+a:visited {color: red;} /* Visited link    */
+a:hover {color: red;}   /* Mouse over link */
+a:active {color: red;}  /* Selected link   */
+
+body {
+  background-color: black;
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h2 {
+  color: white;
+  font-size: 22px;
+  font-family: 'Times New Roman', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4 {
+  color: #2E6AFF;
+  font-family: 'Times New Roman', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  color: red;
+}
+
+#button1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  height: 52px;
+  width: 140px;
+  background-color: white;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+#header {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Times New Roman', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#reddit {
+  color: red;
+  text-align: center;
+  font-size: 19px;
+  font-family: 'Times New Roman', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#youtube {
+  position: fixed;
+  bottom: 0;
+  left: 10px;
+}
+
+#paypal {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+}
+
+#copyright {
+  font-size: 17px;
+  color: grey;
+}
+
+#outputs {
+  text-align: center;
+}
+
+#primary1 {
+  font-family: 'Times New Roman', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#secondary1 {
+  font-family: 'Times New Roman', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Liefe Sutliff (11/4/2021) */
